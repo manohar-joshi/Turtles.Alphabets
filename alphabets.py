@@ -179,7 +179,15 @@ def m():
     forward(20)
     right(90)
     forward(150) 
- 
+ def k():
+    left(90)
+    forward(200)
+    back(80)
+    left(90+90+45)
+    forward(120)
+    back(90)
+    left(90+20)
+    forward(120)
 draw = {" ":space, "a":a, "b":b, "c":c,"d":d,"e":e,"f":f,"g":g,"h":h,"i":i,"j":j,"m":m,"p":p}
 
 for letter in text:

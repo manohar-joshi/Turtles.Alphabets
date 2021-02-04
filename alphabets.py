@@ -342,7 +342,7 @@ def w():
     forward(200)
     left(90+45)
     forward(200)
-draw = {" ":space, "a":a, "b":b, "c":c,"d":d,"e":e,"f":f,"g":g,"h":h,"i":i,"j":j,"m":m,"p":p}
+draw = {" ":space, "a":a, "b":b, "c":c,"d":d,"e":e,"f":f,"g":g,"h":h,"i":i,"j":j,"m":m,"n":n,"o":o,"p":p,"q":q,"r":r,"s":s,"t":t,"u":u,"v","w":w}
 
 for letter in text:
     if letter in draw.keys():
